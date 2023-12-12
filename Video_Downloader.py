@@ -2,7 +2,7 @@ import yt_dlp
 import customtkinter as ctk
 
 class App(ctk.CTk):
-    def __init__(self):
+    def __init__(self):   
         super().__init__()
         WIDTH = 500
         HEIGHT = 500
@@ -30,7 +30,6 @@ class App(ctk.CTk):
         urlType = "Video"
         print(f"{urlType}: {url}")
             
-        
 if __name__ == "__main__":
     app = App()
     app.mainloop()
